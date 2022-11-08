@@ -23,7 +23,7 @@ func init() {
 	database.Register("firebirdsql", &db)
 }
 
-var DefaultMigrationsTable = "MIGRATIONSSGITDESK"
+var DefaultMigrationsTable = "MIGRATIONSSGITWEB"
 
 var (
 	ErrNilConfig = fmt.Errorf("no config")
